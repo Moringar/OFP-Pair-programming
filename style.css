@@ -1,0 +1,110 @@
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 12px;
+    background: url(https://images6.alphacoders.com/867/867537.jpg) 50% 50%;
+    background-size: cover;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+
+main{
+    background-color: rgba(236, 243, 235, 0.438);
+    padding: 30px;
+    border: 2px solid rgb(204, 204, 204);
+    padding-top: 60px;
+    backdrop-filter: blur(4px);
+}
+
+h1{
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    margin-bottom: 50px;
+    border: 2px solid rgb(204, 204, 204);
+    padding: 15px;
+    background-color:rgb(236, 243, 235) ;
+}
+video{
+    opacity: 20%;
+    top: 250px;
+    width: 97%;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+#identity{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.error{
+    color : red;
+    border: 1px sold red;
+}
+
+div.left, div.right{
+    display: flex;
+
+}
+textarea{
+    width: 850px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.hideIt{
+    display: none;
+}
+
+#buttonBox{
+display: flex;
+}
+
+#nom, #prenom{
+    margin-right: 20px;
+}
+
+.redButton{
+    color: rgb(165, 7, 7);
+}
+.greenButton{
+    color: rgb(87, 165, 42);
+
+}
+.yellowButton{
+    color: rgb(154, 207, 7);
+
+}
+.blueButton{
+    color: rgb(42, 81, 165);
+
+}
+
+hr{
+    margin-bottom: 30px;
+}
+#formButton{
+    width: 150px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    
+    box-shadow: 0px 4px 1px rgb(45, 109, 45);
+    transform: translate(0px, 0px);
+
+    transition: 0.3s;
+}
+
+#formButton:hover{
+
+    box-shadow: 0px 0px 1px rgba(45, 109, 45, 0);
+    transform: translate(0px, 4px);
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Awesome Startup</h1>
+    <video autoplay muted loop src="https://external-preview.redd.it/zoycQZ9zgZzL3f8nVQRVzNWRd2OyIaW4_R8ZsuuJKVo.gif?format=mp4&s=ab0a63c69bec705a7401f24e901845aabf1cfab2"></video>
+
+    <main>
+
+        <section id="identity">
+
+            <div class="left">
+                <input type="text" id="nom" placeholder="Nom*">
+                <input type="text" id= "prenom" placeholder="Prenom*">
+            </div>
+
+
+
+            <div class="right">
+
+                    <input type="radio" name="gender" id="">
+                    <label for="homme">FEMME</label>
+
+
+
+                    <input type="radio" name="gender" id="">
+                    <label for="homme">HOMME</label>
+
+
+
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section id="Birth">
+
+            <select name="Jours" id="Jours"></select>
+
+            <select name="Mois" id="Mois"></select>
+
+            <select name="Année" id="Année"></select>
+        </section>
+        <p id="welcome">--</p>
+
+
+        <hr>
+
+        <section id="security">
+            <p>Quel est votre super-héros preferé?</p>
+            <select name="films" id="films">
+                <option value="">Choisissez</option>
+                <option value="Batman">Batman</option>
+                <option value="Superman">Superman</option>
+                <option value="Spiderman">Spiderman</option>
+                <option value="Hulk">Hulk</option>
+                <option value="Captain Marvel">Captain Marvel</option>
+                <option value="Black Widow">Black Widow</option>
+            </select>
+        </section>
+
+            
+        
+
+        <hr>
+        <input type="checkbox" id="conditions" name="conditions">
+        <label for="">J’ai bien lu la politique d’utilisation de ce formulaire</label>
+
+        <hr>
+
+        <textarea placeholder="Dites-nous pourquoi vous voulez postuler chez My Awesome Startup ?"></textarea>
+
+        <hr>
+
+
+        <input id="attachementButton" type="checkbox" name="attachement" id="">
+        <label  for="homme">Je veux enyoyer</label>
+
+
+        <select disabled name="" id="attachement">
+            <option value="">CV</option>
+            <option value="">lettre de motivation</option>
+            <option value="">CV et lettre de motivation</option>
+
+        </select>
+
+
+        <hr>
+        <p>Quelle est votre couleur préférée ?</p>
+
+
+        <div id="buttonBox">
+
+            <button data-couleur="red" class="redButton">ROUGE</button>
+
+            <button data-couleur="green" class="greenButton">VERT</button>
+
+            <button data-couleur="yellow" class="yellowButton">JAUNE</button>
+
+            <button data-couleur="blue" class="blueButton">BLEU</button>
+
+        </div>
+
+
+
+            <p id="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero odit quam nostrum quisquam illo blanditiis. Quis, neque sequi libero necessitatibus cupiditate aliquam maxime dolorem delectus atque harum reiciendis dolores eveniet?
+            Illum repellendus, odit beatae sit quaerat quisquam architecto repudiandae dicta deserunt animi tempora laborum? Quaerat optio earum autem eligendi, quae, fuga magnam debitis sint similique explicabo inventore corrupti dolor aperiam.</p>
+        <hr>
+
+
+        <button id="formButton">Valider</button>
+        <hr>
+            <!-- ZONE DES ERREURS ! o: -->
+            <div id="alerts">
+                <p class="error hideIt">Vous devez avoir au minimum 2 caractères dans votre nom!</p>
+                <p class="error hideIt">Vous devez choisir un genre !</p>
+                <p  class="error hideIt">Vous devez accepter nos conditions générales!</p>
+                <p  class="error hideIt">Vous devez choisir un super héros! </p>
+                <p  class="error hideIt">Vous devez avoir au minimum 50 caractères dans votre message!</p>
+                <p class="error hideIt">Vous devez choisir une couleur ! </p>
+            </div>
+        
+
+    </main>
+</body>
+<script src="app.js"></script>
+</html>
